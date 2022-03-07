@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.twitter-logo {
+    font-size: 12px;
+}
