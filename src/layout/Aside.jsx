@@ -1,5 +1,7 @@
 import React from 'react'
-import { SesarchIcon } from './Icon'
+import TimeLine from '../components/TimeLine';
+import { SesarchIcon } from './Icon';
+
 
 const Aside = () => {
   return (
@@ -11,7 +13,9 @@ const Aside = () => {
         </span>
       </div>
 
-      <div>timeline</div>
+      <div>
+        <TimeLine />
+      </div>
     </aside>
   )
 }
