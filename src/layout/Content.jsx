@@ -3,6 +3,7 @@ import TweetBox from '../components/TweetBox';
 import { PopularIcon } from './Icon';
 import { db } from '../firebaseConfig';
 import { collection, query, orderBy, onSnapshot } from "firebase/firestore"
+import FeedList from '../components/FeedList';
 
 const Content = () => {
   const [tweets, setTweets] = useState([])
@@ -32,7 +33,7 @@ const Content = () => {
         <TweetBox />
       </div>
 
-      
+      <FeedList tweets={tweets} />
 
 
     </main>

@@ -13,7 +13,6 @@ const TweetBox = () => {
             await addDoc(collection(db, 'feed'), {
                 displayName: "müco",
                 twetContent,
-                deneme:"dwadw",
                 userName: '@muccorn',
                 created: Timestamp.now(),
                 avatar:'https://pbs.twimg.com/profile_images/1297742680219410432/sZxReosr_400x400.jpg'
