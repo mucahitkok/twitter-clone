@@ -46,7 +46,7 @@ const Sidebar = () => {
     setActive(name)
   }
   return (
-    <div className="w-64 flex flex-col justify-between p-2">
+    <div className="w-64 flex flex-col justify-between p-2 h-screen sticky top-0">
 
       <div className="">
         <div className='hover:bg-gray-extraLight flex items-center w-12 h-12 justify-center rounded-full' >
