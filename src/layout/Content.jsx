@@ -1,5 +1,5 @@
 import React from 'react';
-
+import db from '../firebase';
 
 const Content = () => {
   return (
