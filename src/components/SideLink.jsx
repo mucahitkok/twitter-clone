@@ -4,7 +4,7 @@ const SideLink = ({ name, Icon,active,handleActiveLink }) => {
     const isActive = active === name
     return (
         <li className='group mb-2 ' onClick={() => handleActiveLink(name)} >
-            <a href={name.toLowerCase()} className='block  rounded-full pointer-events-none' >
+            <a href={name.toLowerCase()} className='block  rounded-full ' >
                 <div className='inline-block'>
                     <div className={`flex items-center group-hover:bg-gray-extraLight group-hover:text-primary-base rounded-full py-3 pl-2 pr-5 ${isActive ? 'text-primary-base':""}`}>
                         <span>
